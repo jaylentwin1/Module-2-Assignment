@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Join a social network</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <h1>Contact Form</h1>
+   <form action="" method="POST" enctype="multipart/form-data">
+      <div>
+         <label for="name">Name:</label>
+         <input type="text" id="name" name="nameOfUser" required placeholder="Insert your Name">
+      </div>
+      <div>
+         <label for="cityName">City:</label>
+         <input type="text" id="cityName" name="cityOfUser" required placeholder="Insert City">
+      </div>
+      <div>
+         <label for="zipcode">Zip Code:</label>
+         <input type="text" id="zipcode" name="zipcodeOfUser" required placeholder="Insert Zipcode">
+      </div>
+      <div>
+        <label for="Waiver">Disclaimer acknowledgement.</label>
+        <input type="checkbox" name="Confirmed" id="Waiver" value="Aarav Agarwal">
+      </div>
+      <div>
+        <select name="Preferred Method of Contact">
+            <option value="email">E-mail</option>
+            <option value="phoneCall">Phone Call</option>
+            <option value="text">Text Messages</option>
+            <option value="noContact">Do Not Contact Me</option>
+         </select>
+      </div>
+      <div>
+        <textarea name="Details" rows="5" cols="60" placeholder="Please type your request here.">
+        </textarea>
+      </div>
+         <button value="Send" type="submit">Submit</button>
+      <div>
+   </form>
+   <footer>
+    Copyright 2023
+   </footer>
+</body>
+</html>
